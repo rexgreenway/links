@@ -7,6 +7,7 @@ import { HorizontalLine, ToggleThemeButton } from "./elements";
 import styles from "./Footer.module.css";
 
 // Footer Elements Should be raised to first class citizens
+// Add titles to these links!!
 const Footer = () => {
   return (
     <div>
