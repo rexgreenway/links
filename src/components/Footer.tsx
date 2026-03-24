@@ -2,7 +2,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
-import { HorizontalLine } from "./elements";
+import { HorizontalLine, ToggleThemeButton } from "./elements";
 
 import styles from "./Footer.module.css";
 
@@ -25,6 +25,8 @@ const Footer = () => {
           <a href="https://www.instagram.com/rexgreenway/">
             <InstagramIcon className={styles.Link} />
           </a>
+
+          <ToggleThemeButton />
         </div>
       </div>
     </div>

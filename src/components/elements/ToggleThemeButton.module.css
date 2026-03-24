@@ -1,0 +1,9 @@
+.Toggle {
+    border: 1px solid var(--text);
+    border-radius: 8px;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
