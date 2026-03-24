@@ -1,5 +1,7 @@
 import RexLogo from "../assets/rex-logo.svg?react";
 
+import { ToggleThemeButton } from "./elements";
+
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -9,6 +11,7 @@ const Header = () => {
         <RexLogo />
       </div>
       <h1>Rex Greenway</h1>
+      <ToggleThemeButton />
     </div>
   );
 };
