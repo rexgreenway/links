@@ -1,0 +1,8 @@
+
+.HorizontalLine {
+    display: block;
+    border: .5px solid var(--text);
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
