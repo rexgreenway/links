@@ -1,6 +1,5 @@
 import Footer from "./Footer";
 import Header from "./Header";
-import Links from "./Links";
-import Main from "./Main";
+import QuickLinks from "./QuickLinks";
 
-export { Header, Footer, Main, Links };
+export { Header, Footer, QuickLinks };

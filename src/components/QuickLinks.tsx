@@ -2,9 +2,9 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
-import styles from "./Links.module.css";
+import styles from "./QuickLinks.module.css";
 
-const Links = () => {
+const QuickLinks = () => {
   return (
     <section className={styles.Links}>
       <a href="https://github.com/RexGreenway/">
@@ -20,4 +20,4 @@ const Links = () => {
   );
 };
 
-export default Links;
+export default QuickLinks;

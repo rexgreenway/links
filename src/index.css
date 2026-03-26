@@ -35,6 +35,7 @@ header,
 main,
 section,
 footer {
+  display: flex;
   justify-content: center;
 }
 
