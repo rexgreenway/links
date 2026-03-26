@@ -1,0 +1,9 @@
+.Links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  svg {
+    font-size: 28px;
+  }
+}

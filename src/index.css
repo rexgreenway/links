@@ -1,60 +1,73 @@
-/*
-* Global Styling
-* --------------
-* There should only be universally applied styles in this file.
-* E.g. Fonts, Background Color?, etc... 
-*
-* All component specific styles are in their associated CSS module files.
-* 
-* Dark Mode Switches?
-*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
-
-/* Default/Light Theme */
-:root {
-    --background: rgb(240, 240, 240);
-    --text: black;
-}
-
-/* Dark Theme */
-[data-theme='dark'] {
-    --background: #121212;
-    --text: #ddd;
-}
-
+/* RESET UNDERLYING DEFAULTS */
 body {
-    margin:0;
-    padding:0;    
-    
-    background-color:  var(--background);
-    
-    font-family: 'Bebas Neue', monospace;
-    color: var(--text);
-    letter-spacing: 2px;
-    
-    /* Fade background and text color changes */
-    transition: all 0.2s linear;
+  margin: 0;
+  padding: 0;
 }
 
+/* VARIABLES */
+:root {
+  --background: rgb(240, 240, 240);
+  --text: black;
+}
+
+[data-theme="dark"] {
+  --background: #121212;
+  --text: #ddd;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --flex-justif: true;
+  }
+}
+
+/* ROOT */
 #root {
-    /* Center the root element */
-    margin: 0 auto; 
-    /* Keeps content centered on wider screens */
-    max-width: min(90vw, 80em);
+  background-color: var(--background);
+  transition: all 0.2s linear; /* Theme change transition */
 }
 
-p, h1, h2, h3, h4, h5 {
-    margin: 0;
+/* LAYOUT */
+header,
+main,
+section,
+footer {
+  justify-content: center;
 }
 
-p {
-    font: 15px 'Raleway', sans-serif;
+/* TEXT FONTS / STYLING */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+
+  color: var(--text);
+  font-family: "Bebas Neue", monospace;
+  letter-spacing: 4px;
 }
 
-.page {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+p,
+a {
+  margin: 0;
+
+  color: var(--text);
+  font:
+    13px "Raleway",
+    sans-serif;
+  text-decoration: none;
+}
+
+span {
+  background-color: var(--text);
+}
+
+svg {
+  display: block;
+  color: var(--text);
+  fill: var(--text);
 }

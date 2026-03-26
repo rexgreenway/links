@@ -1,2 +1,2 @@
-export * from "./HorizontalLine";
+export * from "./Line";
 export * from "./ToggleThemeButton";

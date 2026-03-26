@@ -1,0 +1,9 @@
+
+.Line {
+  flex: 1;
+  height: 1px;
+  width: 1px;
+  /* background-color: var(--text); */
+  opacity: 0.5;
+  align-self: center;
+}

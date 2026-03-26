@@ -4,12 +4,10 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div id="header" className={styles.Header}>
-      <div className={styles.Logo}>
-        <RexLogo />
-      </div>
+    <header id="header" className={styles.Header}>
+      <RexLogo />
       <h1>Rex Greenway</h1>
-    </div>
+    </header>
   );
 };
 

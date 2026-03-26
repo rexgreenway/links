@@ -1,24 +1,13 @@
 .Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
-    /* THIS MAYBE SHOULD MOVE TO GLOBAL? */
-    a {
-        text-decoration: none;
-        color: var(--text);
-    }
-}
+  svg {
+    height: 80px;
+  };
 
-/* AGAIN - THIS MAYBE SHOULD MOVE TO GLOBAL? */
-.Logo {
-    grid-row-start: 1;
-    grid-row-end: 3;
-
-    svg {
-        /* SVG Styling */
-        display: block;
-        fill: var(--text);
-        height: 65px;
-    }
+  h1 {
+    text-align: center;
+  }
 }
