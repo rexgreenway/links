@@ -7,9 +7,9 @@ const App = () => {
     <div id="app" className={styles.App}>
       <Header />
 
-      <section id="description">
+      {/* <section id="description">
         <p>Software engineering, photography, and whatever else I feel like.</p>
-      </section>
+      </section> */}
 
       <QuickLinks />
 
