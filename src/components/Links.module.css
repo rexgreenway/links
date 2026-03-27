@@ -1,4 +1,4 @@
-.Links {
+.QuickLinks {
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -6,4 +6,10 @@
   svg {
     font-size: 28px;
   }
+}
+
+.Links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

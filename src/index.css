@@ -9,12 +9,14 @@ body {
 
 /* VARIABLES */
 :root {
-  --background: rgb(240, 240, 240);
+  --background: #f0f0f0;
+  --background-translucent: rgb(0, 0, 0, 0.1);
   --text: black;
 }
 
 [data-theme="dark"] {
   --background: #121212;
+  --background-translucent: rgb(221, 221, 221, 0.1);
   --text: #ddd;
 }
 
