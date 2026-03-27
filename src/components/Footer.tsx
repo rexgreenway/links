@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={styles.Footer}>
       <ToggleThemeButton />
       <Line />
-      <a href="https://rexgreenway.github.io/" className={styles.Credits}>
+      <a href="https://rexgreenway.me/" className={styles.Credits}>
         Designed and maintained by Rex Greenway
       </a>
     </footer>
