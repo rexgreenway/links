@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
 
-/* RESET UNDERLYING DEFAULTS */
-body {
-  margin: 0;
-  padding: 0;
-}
-
 /* VARIABLES */
 :root {
   --background: #f0f0f0;
@@ -26,8 +20,12 @@ body {
   }
 }
 
-/* ROOT */
-#root {
+body {
+  /* SET UNDERLYING DEFAULTS */
+  margin: 0;
+  padding: 0;
+
+  /* Whole App Theme */
   background-color: var(--background);
   transition: all 0.2s linear; /* Theme change transition */
 }
